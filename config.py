@@ -1,0 +1,23 @@
+cfg = {
+    "portal_url": "https://app.form.com/portal/#1028190",
+    "other_login": "qa36008",
+    "login_id": "usernameField",
+    "password_id": "passwordField",
+    "login": "qa36008",
+    "password": "qa36008",
+    #"login": "qa15018",
+    #"password": "qa15018",
+    "tasks_xpath": "//div[@taskid]",
+    "task_fill_xpath": "//a[@class='detailsPanel_item editFormButton']",
+    "reject_job": "//span[@class='ui-button-text radio_mob'][text()='Reject Job']",
+    "accept_job": "//span[@class='ui-button-text radio_mob'][text()='Job Accepted']",
+    "next_button": "//input[@id='goNextPage']",
+    "located_no": "//span[@class='ui-button-text radio_mob'][text()='No']",
+    "file_upload": "//input[@type='file']",
+    "image_source": "./image.jpg",
+    "comment": "//textarea[@id]",
+    "qa_link": "https://app.form.com/f/1020915/29cc52fc10a665a8/",
+    "rejected_qa": "//span[@class='ui-button-text radio_mob'][text()='Rejected']",
+    "rep_issue": "//span[@class='ui-button-text radio_mob'][text()='Rep Issue']",
+    "submit_button": "//input[@id='goSubmitPage']"
+}
